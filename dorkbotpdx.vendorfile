@@ -1,0 +1,18 @@
+# Optional name of the vendor
+vendor = "DorkbotPDX"
+
+# units for dimensions in this file.
+# Allowed values:  mil/inch/mm
+units = mil
+
+# If specified, this section will change the current DRC
+# settings for the design.  Units are as specified above.
+drc = {
+  copper_space = 6
+  copper_width = 6
+  silk_width = 10
+  copper_overlap = 4
+  drill_diameter = 13
+  
+}
+
