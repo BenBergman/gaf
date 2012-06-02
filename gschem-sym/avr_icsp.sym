@@ -1,0 +1,104 @@
+v 20110115 2
+P 0 600 450 600 1 0 0
+{
+T 430 595 5 6 1 1 0 6 1
+pinnumber=1
+T 200 550 5 8 0 1 0 8 1
+pinseq=1
+T 5 620 9 6 1 1 0 0 1
+pinlabel=MISO
+T 350 600 5 8 0 1 0 2 1
+pintype=pas
+T 0 600 5 10 0 0 0 0 1
+netname=MISO
+}
+B 300 100 600 700 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 800 800 8 8 1 1 0 6 1
+refdes=CONN?
+T 400 0 5 4 1 1 0 0 1
+device=ICSP Header
+T -800 0 5 10 0 0 0 0 1
+footprint=CONNECTOR 3 2
+T -800 200 5 10 0 0 0 0 1
+author=Evan Davey
+T -800 400 5 10 0 0 0 0 1
+documentation=http://www.atmel.com/dyn/resources/prod_documents/doc1925.pdf
+T -800 600 5 10 0 0 0 0 1
+description=Atmel AVR In-System Programming Adaptor
+T -800 800 5 10 0 0 0 0 1
+numslots=0
+T -800 1000 5 10 0 0 0 0 1
+dist-license=GPL
+T -800 1200 5 10 0 0 0 0 1
+use-license=unlimited
+V 500 600 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 0 400 450 400 1 0 0
+{
+T 430 395 5 6 1 1 0 6 1
+pinnumber=3
+T 200 350 5 8 0 1 0 8 1
+pinseq=3
+T 5 420 9 6 1 1 0 0 1
+pinlabel=SCK
+T 350 400 5 8 0 1 0 2 1
+pintype=pas
+T 0 400 5 10 0 0 0 0 1
+netname=SCK
+}
+V 500 400 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 0 200 450 200 1 0 0
+{
+T 430 195 5 6 1 1 0 6 1
+pinnumber=5
+T 200 150 5 8 0 1 0 8 1
+pinseq=5
+T 5 220 9 6 1 1 0 0 1
+pinlabel=RST
+T 350 200 5 8 0 1 0 2 1
+pintype=pas
+T 0 200 5 10 0 0 0 0 1
+netname=RST
+}
+V 500 200 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 1200 600 750 600 1 0 0
+{
+T 745 595 5 6 1 1 0 0 1
+pinnumber=2
+T 1000 550 5 8 0 1 0 2 1
+pinseq=2
+T 1220 595 9 6 1 1 0 6 1
+pinlabel=VDD
+T 850 600 5 8 0 1 0 8 1
+pintype=pas
+T 1200 600 5 10 0 0 0 6 1
+netname=VDD
+}
+V 700 600 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 1200 400 750 400 1 0 0
+{
+T 745 395 5 6 1 1 0 0 1
+pinnumber=4
+T 1000 350 5 8 0 1 0 2 1
+pinseq=4
+T 1220 395 9 6 1 1 0 6 1
+pinlabel=MOSI
+T 850 400 5 8 0 1 0 8 1
+pintype=pas
+T 1200 400 5 10 0 0 0 6 1
+netname=MOSI
+}
+V 700 400 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 1200 200 750 200 1 0 0
+{
+T 745 195 5 6 1 1 0 0 1
+pinnumber=6
+T 1000 150 5 8 0 1 0 2 1
+pinseq=6
+T 1220 195 9 6 1 1 0 6 1
+pinlabel=GND
+T 850 200 5 8 0 1 0 8 1
+pintype=pas
+T 1200 200 5 10 0 0 0 6 1
+netname=GND
+}
+V 700 200 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
