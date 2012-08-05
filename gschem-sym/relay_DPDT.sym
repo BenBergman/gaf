@@ -1,0 +1,100 @@
+v 20111231 2
+T 100 100 0 1 0 0 0 0 1
+gedasymbols::url=http://www.gedasymbols.org/user/kai_martin_knaak/symbols/misc/relay_DPDT.sym
+A 300 1400 200 270 180 3 10 2 0 -1 -1
+A 300 1000 200 270 180 3 10 2 0 -1 -1
+A 300 600 200 270 180 3 10 2 0 -1 -1
+P 300 0 300 400 1 0 0
+{
+T 250 50 5 8 1 1 0 6 1
+pinnumber=1
+T 500 -100 5 10 0 1 90 0 1
+pintype=pas
+}
+P 1100 400 1100 0 1 0 1
+{
+T 1050 50 5 8 1 1 0 6 1
+pinnumber=2
+T 1000 300 5 10 0 1 90 0 1
+pintype=pas
+}
+P 1500 400 1500 0 1 0 1
+{
+T 1450 50 5 8 1 1 0 6 1
+pinnumber=3
+T 1700 300 5 10 0 1 90 0 1
+pintype=pas
+}
+P 1900 400 1900 0 1 0 1
+{
+T 1850 50 5 8 1 1 0 6 1
+pinnumber=4
+T 2100 300 5 10 0 1 90 0 1
+pintype=pas
+}
+P 1900 2000 1900 1600 1 0 0
+{
+T 1950 1850 5 8 1 1 0 0 1
+pinnumber=7
+T 2100 1400 5 10 0 1 90 0 1
+pintype=pas
+}
+P 1500 2000 1500 1600 1 0 0
+{
+T 1550 1850 5 8 1 1 0 0 1
+pinnumber=8
+T 1700 1400 5 10 0 1 90 0 1
+pintype=pas
+}
+P 1100 2000 1100 1600 1 0 0
+{
+T 1150 1850 5 8 1 1 0 0 1
+pinnumber=9
+T 1000 1400 5 10 0 1 90 0 1
+pintype=pas
+}
+P 300 2000 300 1600 1 0 0
+{
+T 350 1850 5 8 1 1 0 0 1
+pinnumber=10
+T 200 1900 5 10 0 1 90 0 1
+pintype=pas
+}
+B 0 200 2300 1600 3 10 2 0 -1 -1 0 -1 -1 -1 -1 -1
+L 600 1600 600 400 3 10 2 0 -1 -1
+L 1500 1600 1200 1300 3 10 2 0 -1 -1
+L 1100 1600 1100 1400 3 10 2 0 -1 -1
+L 1100 1800 1100 1700 3 0 0 0 -1 -1
+T 500 4100 5 8 0 0 0 0 1
+description=double pole, double throw relay
+T 500 3900 5 8 0 0 0 0 1
+documentation=http://catalog.tycoelectronics.com/TE/bin/TE.Connect?C=1&M=BYPN&TCPN=1462033-5&RQPN=D3002
+T 2100 2300 8 10 1 1 0 0 1
+refdes=U?
+T 2100 2100 8 10 1 1 0 0 1
+value=Relay-FP2
+T 2100 1900 8 8 1 1 0 0 1
+footprint=RELAY_FP2
+L 1100 1400 1300 1400 3 10 2 0 -1 -1
+L 1900 1600 1900 1400 3 10 2 0 -1 -1
+L 1900 1400 1700 1400 3 10 2 0 -1 -1
+L 1100 400 1100 600 3 10 2 0 -1 -1
+L 1100 600 1300 600 3 10 2 0 -1 -1
+L 1500 400 1200 700 3 10 2 0 -1 -1
+L 1900 400 1900 600 3 10 2 0 -1 -1
+L 1900 600 1700 600 3 10 2 0 -1 -1
+L 50 350 250 350 3 10 2 0 -1 -1
+L 150 450 150 250 3 10 2 0 -1 -1
+L 150 1725 150 1525 3 10 2 0 -1 -1
+T 500 3500 5 8 0 0 0 0 1
+footprints=RELAYS_FP2
+T 500 3300 5 8 0 0 0 0 1
+symversion=1.0
+T 500 3100 5 8 0 0 0 0 1
+author=Kai-Martin Knaak kmk@lilalaser.de
+T 500 2900 5 8 0 0 0 0 1
+dist-license=GPL 3, http://www.gnu.org/licenses/gpl-3.0.txt
+T 500 2700 5 8 0 0 0 0 1
+use-license=free, no restrictions
+T 500 3700 5 8 0 0 0 0 1
+values=AXICOM FP2, FRT5
