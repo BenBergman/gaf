@@ -1,0 +1,26 @@
+[labels]
+
+refdes=U?
+WS2811 RGB LED
+! copryright=2013 Benjamin Bergman
+! author=Benjamin Bergman
+! uselicense=unlimited
+! distlicense=GPL
+! device=WS2811 RGB LED
+! description=RGB LED pixel
+! footprint=LED5050
+
+[left]
+
+1 DO
+2 DI
+3 VDD
+
+[right]
+
+6 VSS
+5 VDD
+
+[nc]
+
+4 NC
