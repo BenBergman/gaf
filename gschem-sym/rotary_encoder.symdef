@@ -1,0 +1,30 @@
+[labels]
+
+refdes=U?
+Rotary Encoder
+! copryright=2013 Benjamin Bergman
+! author=Benjamin Bergman
+! uselicense=unlimited
+! distlicense=GPL
+! device=Rotary Encoder
+! description=Rotary Encoder
+! footprint=rotary_encoder
+
+[left]
+
+A ENCA
+C GND
+B ENCB
+
+[right]
+
+SA ENCSW
+SB GND
+
+[top]
+
+PA POST1
+
+[bottom]
+
+PB POST2
