@@ -14,7 +14,7 @@ WS2811 RGB LED
 
 1 DO
 2 DI
-3 VDD
+3 VCC
 
 [right]
 
