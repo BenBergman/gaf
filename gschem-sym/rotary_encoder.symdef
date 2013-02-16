@@ -12,19 +12,19 @@ Rotary Encoder
 
 [left]
 
-A ENCA
-C GND
-B ENCB
+5 ENCA
+4 GND
+3 ENCB
 
 [right]
 
-SA ENCSW
-SB GND
+2 ENCSW
+1 GND
 
 [top]
 
-PA POST1
+6 POST1
 
 [bottom]
 
-PB POST2
+7 POST2
