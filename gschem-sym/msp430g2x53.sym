@@ -1,0 +1,241 @@
+v 20111231 2
+B 300 300 5900 6800 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 10500 7200 9 10 0 0 0 0 1
+footprint=TSSOP20
+T 10500 7400 9 10 0 0 0 0 1
+description=MSP430G2x53
+T 10500 7600 9 10 0 0 0 0 1
+device=MSP430G2x53
+T 10500 7800 9 10 0 0 0 0 1
+distlicense=GPL
+T 10500 8000 9 10 0 0 0 0 1
+uselicense=unlimited
+T 10500 8200 9 10 0 0 0 0 1
+author=Benjamin Bergman
+T 10500 8400 9 10 0 0 0 0 1
+copryright=2013 Benjamin Bergman
+T 500 7200 9 10 1 1 0 3 1
+refdes=U?
+T 5500 7200 9 10 1 1 0 3 1
+MSP430G2x53
+P 0 6700 300 6700 1 0 0
+{
+T 350 6700 9 10 1 1 0 1 1
+pinlabel=DVCC
+T 200 6750 5 8 1 1 0 6 1
+pinnumber=1
+T 200 6750 5 8 0 1 0 6 1
+pinseq=1
+T 200 6750 9 10 0 1 0 6 1
+pintype=pas
+}
+P 6500 6700 6200 6700 1 0 0
+{
+T 6150 6700 9 10 1 1 0 7 1
+pinlabel=P1.0/TA0CLK/ACLK/A0/CA0
+T 6300 6750 5 8 1 1 0 0 1
+pinnumber=2
+T 6300 6750 5 8 0 1 0 0 1
+pinseq=2
+T 6100 6750 9 10 0 1 0 6 1
+pintype=pas
+}
+P 6500 6300 6200 6300 1 0 0
+{
+T 6150 6300 9 10 1 1 0 7 1
+pinlabel=P1.1/TA0.0/UCA0RXD/UCA0SOMI/A1/CA1
+T 6300 6350 5 8 1 1 0 0 1
+pinnumber=3
+T 6300 6350 5 8 0 1 0 0 1
+pinseq=3
+T 6100 6350 9 10 0 1 0 6 1
+pintype=pas
+}
+P 6500 5900 6200 5900 1 0 0
+{
+T 6150 5900 9 10 1 1 0 7 1
+pinlabel=P1.2/TA0.1/UCA0TXD/UCA0SIMO/A2/CA2
+T 6300 5950 5 8 1 1 0 0 1
+pinnumber=4
+T 6300 5950 5 8 0 1 0 0 1
+pinseq=4
+T 6100 5950 9 10 0 1 0 6 1
+pintype=pas
+}
+P 6500 5500 6200 5500 1 0 0
+{
+T 6150 5500 9 10 1 1 0 7 1
+pinlabel=P1.3/ADC10CLK/CAOUT/VREF-/VEREF-/A3/CA3
+T 6300 5550 5 8 1 1 0 0 1
+pinnumber=5
+T 6300 5550 5 8 0 1 0 0 1
+pinseq=5
+T 6100 5550 9 10 0 1 0 6 1
+pintype=pas
+}
+P 6500 5100 6200 5100 1 0 0
+{
+T 6150 5100 9 10 1 1 0 7 1
+pinlabel=P1.4/SMCLK/UCB0STE/UCA0CLK/VREF+/VEREF+/A4/CA4/TCK
+T 6300 5150 5 8 1 1 0 0 1
+pinnumber=6
+T 6300 5150 5 8 0 1 0 0 1
+pinseq=6
+T 6100 5150 9 10 0 1 0 6 1
+pintype=pas
+}
+P 6500 4700 6200 4700 1 0 0
+{
+T 6150 4700 9 10 1 1 0 7 1
+pinlabel=P1.5/TA0.0/UCB0CLK/UCA0STE/A5/CA5/TMS
+T 6300 4750 5 8 1 1 0 0 1
+pinnumber=7
+T 6300 4750 5 8 0 1 0 0 1
+pinseq=7
+T 6100 4750 9 10 0 1 0 6 1
+pintype=pas
+}
+P 6500 3500 6200 3500 1 0 0
+{
+T 6150 3500 9 10 1 1 0 7 1
+pinlabel=P2.0/TA1.0
+T 6300 3550 5 8 1 1 0 0 1
+pinnumber=8
+T 6300 3550 5 8 0 1 0 0 1
+pinseq=8
+T 6100 3550 9 10 0 1 0 6 1
+pintype=pas
+}
+P 6500 3100 6200 3100 1 0 0
+{
+T 6150 3100 9 10 1 1 0 7 1
+pinlabel=P2.1/TA1.1
+T 6300 3150 5 8 1 1 0 0 1
+pinnumber=9
+T 6300 3150 5 8 0 1 0 0 1
+pinseq=9
+T 6100 3150 9 10 0 1 0 6 1
+pintype=pas
+}
+P 6500 2700 6200 2700 1 0 0
+{
+T 6150 2700 9 10 1 1 0 7 1
+pinlabel=P2.2/TA1.1
+T 6300 2750 5 8 1 1 0 0 1
+pinnumber=10
+T 6300 2750 5 8 0 1 0 0 1
+pinseq=10
+T 6100 2750 9 10 0 1 0 6 1
+pintype=pas
+}
+P 6500 2300 6200 2300 1 0 0
+{
+T 6150 2300 9 10 1 1 0 7 1
+pinlabel=P2.3/TA1.0
+T 6300 2350 5 8 1 1 0 0 1
+pinnumber=11
+T 6300 2350 5 8 0 1 0 0 1
+pinseq=11
+T 6100 2350 9 10 0 1 0 6 1
+pintype=pas
+}
+P 6500 1900 6200 1900 1 0 0
+{
+T 6150 1900 9 10 1 1 0 7 1
+pinlabel=P2.4/TA1.2
+T 6300 1950 5 8 1 1 0 0 1
+pinnumber=12
+T 6300 1950 5 8 0 1 0 0 1
+pinseq=12
+T 6100 1950 9 10 0 1 0 6 1
+pintype=pas
+}
+P 6500 1500 6200 1500 1 0 0
+{
+T 6150 1500 9 10 1 1 0 7 1
+pinlabel=P2.5/TA1.2
+T 6300 1550 5 8 1 1 0 0 1
+pinnumber=13
+T 6300 1550 5 8 0 1 0 0 1
+pinseq=13
+T 6100 1550 9 10 0 1 0 6 1
+pintype=pas
+}
+P 6500 4300 6200 4300 1 0 0
+{
+T 6150 4300 9 10 1 1 0 7 1
+pinlabel=P1.6/TA0.1/UCB0SOMI/UCB0SCL/A6/CA6/TDI/TCLK
+T 6300 4350 5 8 1 1 0 0 1
+pinnumber=14
+T 6300 4350 5 8 0 1 0 0 1
+pinseq=14
+T 6100 4350 9 10 0 1 0 6 1
+pintype=pas
+}
+P 6500 3900 6200 3900 1 0 0
+{
+T 6150 3900 9 10 1 1 0 7 1
+pinlabel=P1.7/CAOUT/UCB0SIMO/UCB0SDA/A7/CA7/TDO/TDI
+T 6300 3950 5 8 1 1 0 0 1
+pinnumber=15
+T 6300 3950 5 8 0 1 0 0 1
+pinseq=15
+T 6100 3950 9 10 0 1 0 6 1
+pintype=pas
+}
+V 250 700 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 0 700 200 700 1 0 0
+{
+T 350 700 9 10 1 1 0 1 1
+pinlabel=RST/NMI/SBWTDIO
+T 200 750 5 8 1 1 0 6 1
+pinnumber=16
+T 200 750 5 8 0 1 0 6 1
+pinseq=16
+T 200 750 9 10 0 1 0 6 1
+pintype=pas
+}
+P 0 1100 300 1100 1 0 0
+{
+T 350 1100 9 10 1 1 0 1 1
+pinlabel=TST/SBWTCK
+T 200 1150 5 8 1 1 0 6 1
+pinnumber=17
+T 200 1150 5 8 0 1 0 6 1
+pinseq=17
+T 200 1150 9 10 0 1 0 6 1
+pintype=pas
+}
+P 6500 700 6200 700 1 0 0
+{
+T 6150 700 9 10 1 1 0 7 1
+pinlabel=XOUT/P2.7
+T 6300 750 5 8 1 1 0 0 1
+pinnumber=18
+T 6300 750 5 8 0 1 0 0 1
+pinseq=18
+T 6100 750 9 10 0 1 0 6 1
+pintype=pas
+}
+P 6500 1100 6200 1100 1 0 0
+{
+T 6150 1100 9 10 1 1 0 7 1
+pinlabel=XIN/P2.6/TA0.1
+T 6300 1150 5 8 1 1 0 0 1
+pinnumber=19
+T 6300 1150 5 8 0 1 0 0 1
+pinseq=19
+T 6100 1150 9 10 0 1 0 6 1
+pintype=pas
+}
+P 0 5900 300 5900 1 0 0
+{
+T 350 5900 9 10 1 1 0 1 1
+pinlabel=DVSS
+T 200 5950 5 8 1 1 0 6 1
+pinnumber=20
+T 200 5950 5 8 0 1 0 6 1
+pinseq=20
+T 200 5950 9 10 0 1 0 6 1
+pintype=pas
+}
